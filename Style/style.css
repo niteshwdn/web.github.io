@@ -1,0 +1,109 @@
+.contect-Us{
+        margin-top: 12px;
+        margin-left: 12px;
+}
+.card{
+        margin-top: 10px;
+        margin-left: 12px;
+}
+.card:hover{
+       transform:scale(1.1,1.0);
+       transition-duration: 300ms;
+}
+.blogs{
+        overflow: hidden;
+        background-color: black;
+}
+.container{
+        background-color: rgb(223, 221, 221);
+        margin-top: 5px;
+}
+.coll{
+        background-color: rgba(214, 218, 221, 0.66);
+}
+.w-100 
+{
+    height: 80vh;
+}
+.blockquote-footer{
+        margin-top: 12px;
+}
+.third{
+        flex: 1;
+        float: left;
+        width: 100%
+}
+.padding-32 {
+        padding-top: 20px!important;
+        padding-bottom: 20px!important
+    }
+    .round{
+        border-radius: 4px
+    }
+    
+.margin-bottom {
+        margin-bottom: 16px!important
+    }
+    .container:after,.container:before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .padding-64 {
+        padding-top: 16px!important;
+    }
+    .wide {
+        letter-spacing: 4px
+    }
+    .opacity{
+        opacity: 0.60
+    }
+    .justify {
+        text-align: justify!important
+    }
+    .content{
+        background-color: white;
+    }
+    .row-padding {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .third:hover{
+        transform: scale(1.20,1.10);
+        transition-duration: 400ms;
+    }
+    .footer{
+        flex-wrap: wrap;
+        display: flex;
+        height: 20vh;
+        background-color:black;
+        justify-content: center;
+    }
+    .icon{
+        flex: 1;
+        float: left;
+    }
+    .icon>a>img:hover{
+        transform: scale(1.1,1.1);
+    }
+    .icon>a>img{
+        border-radius: 30px;
+        margin: 15px;
+        margin-top: 20px; 
+    }
+    h1{
+        text-transform: uppercase;
+        background-image: url("../img/img.jpg");
+        background-size: cover;
+        color: transparent;
+        background-position: top center;
+        -webkit-background-clip: text;
+        animation: bac 7s infinite alternate;
+        text-shadow: 4px 2px 2px  red;
+    }
+    @keyframes bac{
+            from{}
+            to{
+                background-position: bottom center;
+            }
+    }
